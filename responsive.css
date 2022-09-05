@@ -1,0 +1,17 @@
+@media screen and (max-width: 400px){
+    .encabezado{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .caja-principal{
+        flex-direction: column;
+    }
+    .caja1{
+        margin: 0 auto;
+    }
+    .caja2{
+        margin: 0 auto;
+    }
+}

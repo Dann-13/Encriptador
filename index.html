@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <div class="logo">
+                <img src="imagenes/alura.png" alt="">
+            </div>
+            <div class="titulo">
+                <h1>Encriptador De Texto </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="caja-principal">
+            <div class="caja1">
+                <h3 class="textos">Ingrese Mensaje</h3>
+                <p class="textos">Ingrese texto sin mayusculas, acentos, ni caracteres especiales</p>
+                <div id="mensaje-error"></div>
+                <textarea id="mensaje" class="caja-encriptar" name="" id="" cols="40" rows="0"
+                    placeholder="Ingrese Su Texto"></textarea>
+                <input type="button" id="encriptar" value="Encriptar" class="boton">
+                <input type="button" id="desencriptar" value="Desencriptar" class="boton">
+            </div>
+            <div class="caja2">
+
+                <h3 class="textos">Mensaje Traducido</h3>
+                <textarea id="traducir" class="caja-traducir" name="" rows="15"></textarea>
+                <input type="button" id="copiar" value="Copiar" class="boton">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <img src="imagenes/pie.svg" class="img-pie" alt="" srcset="">
+            <div class="pie">
+                <p>&#169 Copyright - Andres Daniel Gomez De La Cruz - 2022.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

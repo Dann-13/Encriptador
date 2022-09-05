@@ -1,0 +1,95 @@
+body{
+    background-color: #E5E5E5;
+}
+.encabezado {
+    width: 90%;
+    padding: 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.caja-principal {
+    margin: 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-principal .caja1 {
+    text-align: center;
+    width: 50%;
+}
+#mensaje-error{
+    padding: 15px 0 15px;
+    color: #0D3878;
+}
+.caja-principal .caja2 {
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 30px;
+}
+
+.caja-encriptar {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+
+}
+.caja-traducir{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+.textos {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+textarea {
+    resize: none;
+    display: inline-block;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+}
+
+.boton {
+    margin: 15px 0 15px;
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.boton:hover{
+    background-color: #0D3878;
+    color: white;
+}
+
+.contenedor-footer {
+    text-align: center;
+    position: relative;
+    display: block;
+    
+}
+.img-pie{
+    width: 100%;
+}
+.pie {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
