@@ -1,5 +1,6 @@
 body{
     background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
 }
 .encabezado {
     width: 90%;
@@ -81,7 +82,6 @@ textarea {
     text-align: center;
     position: relative;
     display: block;
-    
 }
 .img-pie{
     width: 100%;
@@ -92,4 +92,7 @@ textarea {
     left: 50%;
     color: #fff;
     transform: translate(-50%, -50%);
+}
+.pie p{
+    font-size: 10px;
 }
