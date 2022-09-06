@@ -1,6 +1,10 @@
 @media screen and (max-width: 400px){
     .encabezado{
         flex-direction: column;
+        width: 100% !important;
+    }
+    .titulo{
+        padding-top: 25px;
     }
     .logo{
         margin: 0 auto;
@@ -10,8 +14,10 @@
     }
     .caja1{
         margin: 0 auto;
+        width: 100% !important;
     }
     .caja2{
         margin: 0 auto;
+        width: 100% !important;
     }
 }
