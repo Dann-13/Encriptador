@@ -46,19 +46,19 @@ function EncriptarTexto(texto) {
     }else {
         for (i = 0; i < textoArrayNormal.length; i++) {
             if (textoArrayNormal[i] == "e") {
-                textoArrayNormal.splice(i, 1, ("enter")); //splice(inicio,cuantos,por?)
+                textoArrayNormal.splice(i, 1, ("pass")); //splice(inicio,cuantos,por?)
             }
             else if (textoArrayNormal[i] == "i") {
-                textoArrayNormal.splice(i, 1, ("imes"));
+                textoArrayNormal.splice(i, 1, ("mall"));
             }
             else if (textoArrayNormal[i] == "o") {
-                textoArrayNormal.splice(i, 1, ("ober"));
+                textoArrayNormal.splice(i, 1, ("yeiii"));
             }
             else if (textoArrayNormal[i] == "a") {
-                textoArrayNormal.splice(i, 1, ("ai"));
+                textoArrayNormal.splice(i, 1, ("zzzzz"));
             }
             else if (textoArrayNormal[i] == "u") {
-                textoArrayNormal.splice(i, 1, ("ufat"));
+                textoArrayNormal.splice(i, 1, ("alll"));
             }
         }
         return textoArrayNormal.join("");
