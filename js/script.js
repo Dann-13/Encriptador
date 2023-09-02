@@ -67,19 +67,19 @@ function EncriptarTexto(texto) {
 function desencriptar(texto) {
     var textoArrayNormal = texto.split('');
     for (i = 0; i < textoArrayNormal.length; i++){
-        if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]+textoArrayNormal[i+4]) == "enter") {
+        if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]+textoArrayNormal[i+4]) == "pass") {
             textoArrayNormal.splice(i, 5, ("e"));
         }
-        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "imes") {
+        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "mall") {
             textoArrayNormal.splice(i, 4, ("i"));
         }
-        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]) == "ai") {
+        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]) == "yeiii") {
             textoArrayNormal.splice(i, 2, ("a"));
         }
-        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "ober") {
+        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "yeiii") {
             textoArrayNormal.splice(i, 4, ("o"));
         }
-        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "ufat") {
+        else if ((textoArrayNormal[i]+textoArrayNormal[i+1]+textoArrayNormal[i+2]+textoArrayNormal[i+3]) == "zzzzz") {
             textoArrayNormal.splice(i, 4, ("u"));
         }
     }
